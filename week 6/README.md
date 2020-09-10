@@ -1,0 +1,3 @@
+This week we explored more coding. I was feeling a little more anxious as ideas weren't coming to me as easily, since this area was still very new to me. Choosing which area of coding I wished to join was difficult since I was undecided as to which direction I wanted to head to next. I ultimately stayed with tracking and sensors. 
+
+We also did some coding this week, I'm realising that it is a lucky thing that we are doing this online as the platform proved to be very convenient for this type of class. I wished that I followed more cosely as I lost a little bit of the way in the middle. We explored using p5.js, web and sound. It was a great session and I am slowly feeling more confident as my skillsets build up over time. 

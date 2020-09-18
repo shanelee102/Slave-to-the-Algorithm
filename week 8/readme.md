@@ -4,3 +4,9 @@ I've decided to change the project idea again because it felt like the pollinate
 
 I did some more quick brainstorming, but nothing too drastically different from the ideas I've made so far so as to save time. The ideas I've ultimately went with is:
 
+![project ideas page](https://user-images.githubusercontent.com/68723452/93569249-9d8f0400-f9d4-11ea-88ca-83c0df88e223.jpg)
+
+The project is translating text into different emotions, each emotion adding on a new layer of effects to the image. I've tried thinking about how to combine the two things that I'm interested in in a new way, illustration and emotion. I've done drawing and illustrating elements that represent each emotion on previous projects before so I wanted to try something different in this project, perhaps something a little more experimental with the possibilities of the computer outside of traditional methods. 
+
+a quick prototype or example:
+

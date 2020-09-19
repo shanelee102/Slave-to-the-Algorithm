@@ -15,3 +15,11 @@ I did a little experimenting on the P5.js web editor with the help of this site:
 ![image](https://user-images.githubusercontent.com/68723452/93661133-b7921a80-fa98-11ea-95b8-c5dd00a26e58.png)
 
 I started by changing the shapes of the pixels and their size. Then I moved on to experimenting with the colours. 
+
+![image](https://user-images.githubusercontent.com/68723452/93661256-b9101280-fa99-11ea-8689-824f5e24af2e.png)
+![image](https://user-images.githubusercontent.com/68723452/93661280-eceb3800-fa99-11ea-8b1c-6f78866cf715.png)
+![image](https://user-images.githubusercontent.com/68723452/93661325-350a5a80-fa9a-11ea-8c7d-83b75168a50b.png)
+![image](https://user-images.githubusercontent.com/68723452/93661337-4ce1de80-fa9a-11ea-8acb-dc660cf89536.png)
+![image](https://user-images.githubusercontent.com/68723452/93661427-10fb4900-fa9b-11ea-846a-6c0736a2f5ab.png)
+
+This made me think of a lot of other possibilities using video capture along with speech to text. Perhaps it might look like you're having a conversation with yourself, watching yourself change colour or shape depending on what you say? 

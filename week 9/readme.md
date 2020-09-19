@@ -6,7 +6,12 @@ I did a little experimenting on the P5.js web editor with the help of this site:
 , experimenting with adding filters to video capture.
 
 ![capture_filter_ellipse](https://user-images.githubusercontent.com/68723452/93660950-53228b80-fa97-11ea-9779-e39776e3fba0.JPG)
+![image](https://user-images.githubusercontent.com/68723452/93661147-e3150500-fa98-11ea-8086-08e2317d1f72.png)
+
 ![capture_filter_rect](https://user-images.githubusercontent.com/68723452/93660955-587fd600-fa97-11ea-9369-8ee750618eb4.JPG)
+![image](https://user-images.githubusercontent.com/68723452/93661145-d55f7f80-fa98-11ea-8987-59efdc2c24f1.png)
+
 ![capture_filter_rect_8](https://user-images.githubusercontent.com/68723452/93661024-d9d76880-fa97-11ea-8e19-9602129d8be9.JPG)
+![image](https://user-images.githubusercontent.com/68723452/93661133-b7921a80-fa98-11ea-95b8-c5dd00a26e58.png)
 
 I started by changing the shapes of the pixels and their size. Then I moved on to experimenting with the colours. 

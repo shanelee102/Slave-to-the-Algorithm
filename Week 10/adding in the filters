@@ -1,0 +1,121 @@
+continuing from last week, I was ready to add the filters. Although I wanted to play around more with moving around pixels and distorting the image, I was aware that time was running
+out and decided to try adding the simpler filters that p5js has as well as playing around with tints and colours. Following the pseudocode I wrote previously I began creating a 
+filter for each emotion. 
+--------------------------------------------------------------------------------------------------------------------------------
+```
+function evaluateEmotion(givenWord) {
+  
+  // Cycle through the table
+  for (let r = 0; r < table.getRowCount(); r++){
+    let word = table.getString(r, 0);
+    
+    if (word == givenWord) {
+      let scores = {
+        "disgust": parseFloat(table.getString(r, 1)),
+        "surprise": parseFloat(table.getString(r, 2)),
+        "neutral": parseFloat(table.getString(r, 3)),
+        "anger": parseFloat(table.getString(r, 4)),
+        "sad": parseFloat(table.getString(r, 5)),
+        "happy": parseFloat(table.getString(r, 6)),
+        "fear": parseFloat(table. getString(r, 7))
+      };
+      
+      // Runs through dictionary to get largest value
+      let largest = Object.keys(scores).reduce(function(a, b){ return scores[a] > scores[b] ? a : b });
+      return largest;
+    }
+  }
+  return false;
+}
+function evaluate(){
+ let emotion = evaluateEmotion(givenWord);
+ 
+ if (emotion == "disgust"){
+ disgustFilter();
+ }
+ else if (emotion == "surprise"){
+ surpriseFilter();
+ }
+ else if (emotion == "neutral"){
+ neutralFilter();
+ }
+ else if (emotion == "anger"){
+ angerFilter();
+ }
+ else if (emotion == "sad"){
+ sadFilter(); 
+ }
+ else if (emotion == "happy"){
+ happyFilter();
+ }
+ else if (emotion == "fear"){
+ fearFilter();
+ }
+}
+function disgustFilter(){
+ filter(DILATE); 
+}
+function surpriseFilter(){
+  image(
+    img, 
+    windowWidth/2-imageDrawWidth/2, 
+    windowHeight/2-imageDrawHeight/2, 
+    imageDrawWidth, 
+    imageDrawHeight
+    );
+ tint (255, 20, 146, 126); 
+}
+function neutralFilter(){
+  image(
+    img, 
+    windowWidth/2-imageDrawWidth/2, 
+    windowHeight/2-imageDrawHeight/2, 
+    imageDrawWidth, 
+    imageDrawHeight
+    );
+ tint (136, 136, 136, 126);
+}
+function angerFilter(){
+ filter(POSTERIZE, 3); 
+}
+function sadFilter(){
+ filter (BLUR, 3); 
+}
+function happyFilter(){
+  image(
+  img, 
+    windowWidth/2-imageDrawWidth/2, 
+    windowHeight/2-imageDrawHeight/2, 
+    imageDrawWidth, 
+    imageDrawHeight
+    );
+ tint (255, 213, 0, 126);
+}
+function fearFilter(){
+filter (ERODE);
+}
+```
+----------------------------------------------------------------------------------------------------------------------------
+I chose these filters as they remind me of these emotions. 
+
+Dilate is applied for disgust as looking at motion blur or slightly askew images may cause a tiniest feeling of nausea. 
+
+I chose a pink tint for surprise as I thought the colour pink suits the feeling of surprise quite well. 
+
+For neutral, I chose a grey tint to dull out the colours in the image. 
+
+For anger, I used posterize as the filter really gives the image a lot of intensity.
+
+For sad, I applied a blur filter as it reminds me of what I would see if I had tears in my eyes.
+
+For fear, I chose erode, as the effect of this filter really is nightmare fuel. 
+
+While these filters may not be what I initially envisioned, I still think it visualises these emotions pretty well in the form of image filters. 
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+

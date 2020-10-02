@@ -167,3 +167,12 @@ function fearFilter(){
 filter (ERODE);
 }
 ```
+--------------------------------------------------------------------------------------------------
+This is my current progress with the code. Although I've adding filters, I still have not been able to see these filters appearing on screen. 
+
+
+
+
+
+
+

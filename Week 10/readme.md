@@ -103,25 +103,25 @@ function evaluateEmotion(givenWord) {
 function evaluate(){
  let emotion = evaluateEmotion(givenWord);
  
- if (emotion == "disgust");
+ if (emotion == "disgust"){
  disgustFilter();
- 
- if (emotion == "surprise");
+ }
+ if (emotion == "surprise"){
  surpriseFilter();
- 
- if (emotion == "neutral");
+ }
+ if (emotion == "neutral"){
  neutralFilter();
- 
- if (emotion == "anger");
+ }
+ if (emotion == "anger"){
  angerFilter();
- 
- if (emotion == "sad");
+ }
+ if (emotion == "sad"){
  sadFilter(); 
- 
- if (emotion == "happy");
+ }
+ if (emotion == "happy"){
  happyFilter();
- 
- if (emotion == "fear");
+ }
+ if (emotion == "fear"){
  fearFilter();
 }
 function disgustFilter(){
